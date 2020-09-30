@@ -39,7 +39,7 @@ class YouTubeDebugger extends React.Component {
 
     /*
     Or this can be defined using the Object.assign method:
-    
+
     this.setState({
       settings: Object.assign({}, this.state.settings, {
         video: Object.assign({}, this.state.settings.video, {
@@ -47,18 +47,18 @@ class YouTubeDebugger extends React.Component {
         })
       })
     });
-    
+
     */
   };
 
   render() {
     return (
       <div>
-        <button className="bitrate" 
+        <button className="bitrate"
         onClick={this.handleChangeBitrate}>
           bitrate
         </button>
-        <button className="resolution" 
+        <button className="resolution"
         onClick={this.handleChangeResolution}>
          resolution
         </button>
